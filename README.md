@@ -3,7 +3,7 @@ Solves sudoku in a real time webcam feed
 
 sudoku_solver.py takes a real time webcam feed and extracts sudoku from the frames and prints the solution on the screen
 
-The algorithm used to solve the sudoku is is by Peter Norvig and solves sudoku problems in under 0.01 seconds
+The algorithm used to solve the sudoku is is by Peter Norvig and solves sudoku problems in under 0.01 seconds (https://norvig.com/sudoku.html)
 
 To train the digit recognizer, I have curated a data using the Char74K Data repository by and manually segmenting a very small subset from it that match the normal font digits in a sudoku.
 The training has been done using a custom architecture inspired from the seminal LeNet Architecture (that was origninally used by Yann LeCun et al. to solve the MNIST problem)
