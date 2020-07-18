@@ -11,7 +11,7 @@ import imutils
 import cv2
 
 # load the model
-model = load_model('models/best_model_lenet_aug_loss_3.model')
+model = load_model('model/best_model_lenet_aug_loss_3.model')
 
 # webcam feed
 cap = cv2.VideoCapture(0)
